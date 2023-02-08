@@ -1,0 +1,31 @@
+.quem-somos{
+  max-width: 1200px;
+  padding: 10px 20px;
+  margin: 0 auto;
+}
+.quem-somos-titulo{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #5f3f75;
+}
+.quem-somos-texto{
+  text-indent: 2rem;
+  line-height: 2rem;
+  text-align: justify;
+  font-size: 1.125rem;
+}
+.quem-somos-conteudo{
+  gap: 30px;
+  background-color: #dfdfdf;
+  padding: 40px 40px;
+  border-radius: 10px;
+}
+@media(max-width: 600px){
+  .quem-somos-titulo{
+    text-align: center;
+  }
+  .quem-somos-texto{
+    text-indent: 1rem;
+    text-align: left;
+  }
+}

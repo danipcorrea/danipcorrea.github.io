@@ -1,0 +1,17 @@
+.logar {
+  max-width: 1200px;
+  padding: 30px 0px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-image: url("../img/4637313.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+@media (max-width:950px){
+  .logar{
+    background-image: none;
+  }
+}

@@ -1,0 +1,47 @@
+.footer {
+  max-width: 1200px;
+  padding: 50px 0px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  align-items: center;
+  justify-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.footer-contato h2 {
+  margin-bottom: 10px;
+  color: #5f3f75;
+}
+.footer-contato p {
+  font-weight: 500;
+  font-size: 1rem;
+  color: #545454;
+}
+.footer-menu a {
+  font-weight: 500;
+  font-size: 1rem;
+  color: #545454;
+}
+.footer-menu a:hover {
+  color: #5f3f75;
+}
+.footer-img img {
+  max-width: 200px;
+}
+@media (max-width: 800px) {
+  .footer {
+    display: block;
+    gap: 10px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+  }
+  .footer-menu{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    gap: 20px;
+  }
+  
+}
